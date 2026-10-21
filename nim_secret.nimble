@@ -1,5 +1,5 @@
 # Package
-version       = "0.1.0"
+version       = "0.2.0"
 author        = "GodsGolemInc"
 description   = "A secret string that masks itself in text, constant-time equality for secrets and tags, and wiping in place"
 license       = "Apache-2.0"

@@ -1,5 +1,9 @@
 # G2 (変異検査): `src/nim_secret.nim`
 
+## 未測定 (0.2.0)
+
+0.2.0 で `SecretString` を object に替え、`toSecret`・`repr`・`len`・`withRevealed`・`==` (コンパイルエラー) を足した。変えた行の変異検査はまだ流していない。下の結果は 0.1.0 のもの。
+
 - 測定日: 2026-10-17
 - ツール: nim-muter 0.2.10
 - ジョブ: `tests/mutation/nim_secret.json` (リポジトリのルートから `../nim-muter/bin/nim-muter run --config tests/mutation/nim_secret.json`)
